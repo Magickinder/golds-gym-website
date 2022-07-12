@@ -7,7 +7,6 @@ body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-
 }
 
 ::-webkit-scrollbar {
@@ -46,6 +45,10 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.react-horizontal-scrolling-menu--wrapper > div {
+  overflow-x: hidden;
 }
 
 .detail-image {
